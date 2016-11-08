@@ -1,0 +1,75 @@
+<html lang="es">
+    <head>
+        <title>GroovyDos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="css/cssuno.css"/>
+        <link rel="stylesheet" type="text/css" href="materialize/css/materialize.css"/>
+
+        <style>
+            div
+            {
+                max-width: 700px;
+                align-content: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #dicuatro
+            {
+                margin-top: 80px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="materialize/js/materialize.js"></script>
+
+        <div id="diuno"></div>
+
+        <div id="didos" class="row">
+            <form id="formulario" class="col s12">
+                <div class="">
+                    <div class="input-field col s12">
+
+                        <label for="selector">Estado:</label>
+
+                    </div>
+                    <div class="input-field col s12">
+                        <select id="selector"></select>
+                    </div>
+                    <div class="input-field col s12">
+                        <label  for="ciudad">Ciudad:</label>
+                        <input  type="text" id="ciudad"/>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div id="ditres">
+            <a class="waves-effect waves-light btn-large disabled" id="but">Guardar ciudad</a>
+        </div>
+        <div id="dicuatro">
+
+            <table class="bordered centered">
+                <thead>
+                    <tr>
+                        <th data-field="id"><h5>Ciudad</h5></th>
+                        <th data-field="name"><h5>Estado</h5></th>
+                    </tr>
+                </thead>
+                <tbody id="tebody">
+
+                </tbody>
+            </table>
+
+        </div>
+        <div id="dicinco"></div>
+
+        <script type="text/javascript" src="index.js"></script>
+
+    </body>
+</html>
